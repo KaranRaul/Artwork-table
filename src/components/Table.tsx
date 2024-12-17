@@ -150,13 +150,6 @@ const ArtworkTable: React.FC = () => {
                 <Column field="date_start" header="Date Start"></Column>
                 <Column field="date_end" header="Date End"></Column>
             </DataTable>
-            <Button
-                icon="pi pi-chevron-down"
-                className="ml-4 p-button-text"
-                onClick={(e) => overlayPanelRef.current?.toggle(e)}
-            />
-
-
 
         </div>
     );
